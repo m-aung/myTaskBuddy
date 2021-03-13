@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>DEMO PROJECT</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+</head>
+<body>        
+  <div class="container mt-5">
+    <h1 class="display-4"><i class="bi bi-octagon-half text-primary"></i>My<span class="text-primary">Task</span>Buddy</h1>
+    <form submit="" id="task-form">
+      <div class="form-group">
+        <!-- <label for="id">ID</label>
+        <input type="text" class="form-control" id="id"> -->
+      </div>
+      <div class="form-group">
+        <label for="title">Title</label>
+        <input type="text" class="form-control" id="title">
+      </div>
+      <div class="form-group">
+        <label for="goal">Goal</label>
+        <input type="text" class="form-control" id="goal">
+      </div>
+      <div class="form-group">
+        <label for="attentionTo">Attention To</label>
+        <input type="text" class="form-control" id="attentionTo">
+      </div>
+      <input type="submit" value ="Add Task" class="btn btn-primary btn-block">
+    </form>
+    <table class="table table-striped mt-5">
+      <thead>
+        <tr>
+          <th>ID</th>
+          <th>Title</th>
+          <th>Goal</th>
+          <th>Attention To</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody id="task-list">
+      </tbody>
+    </table>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
